@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web Developer Job Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="title">Web Developer, Programmer vacancy</h1>
+    <p id="description">Please fill the following form with your personal and professional information</p>
+    <div class="form-sty">
+        <form action="#" id="survey-form">
+            <label class="label-sty" id="name-label" for="name">Name</label>
+            <input type="text" name="" id="name" placeholder="Enter your full Name" required>
+            <label for="email" id="email-label" class="label-sty">Email</label>
+            <input type="email" name="" id="email" placeholder="Enter your email" required>
+            <label for="number" id="number-label" class="label-sty">Age</label>
+            <input type="number" name="" id="number" placeholder="Enter your age" min=19 max=45 required>
+            <label class="label-sty">Number</label>
+            <input type="text" name="" id="" placeholder="91+">
+            <label class="label-sty">Linkedin profile</label>
+            <input type="text" name="" id="" placeholder="your Linkedin profile (link)" required>
+            <label for="github" class="label-sty">GitHub profile</label>
+            <input type="text" name="" id="" placeholder="your GitHub profile (link)" required>
+            <label class="label-sty">Select a position</label>
+            <select id="dropdown" required>
+                <option>Choose Job Role</option>
+                <option>Frontend Developer</option>
+                <option>Backend Developer</option>
+                <option>Full stack Developer</option>
+            </select>
+            <label class="label-sty">Choose your work-time</label>
+            <div>
+                <input type="radio" id="full-time" name="availability" value="job"><label for="full-time"
+                    class="radio-sty"> Full-Time</label>
+                <input type="radio" id="part-time" name="availability" value="job"><label class="radio-sty"
+                    for="part-time"> Part-Time</label>
+            </div>
+            <label class="label-sty">Select your preferred work mode</label>
+
+            <div>
+                <input type="checkbox" value="remote" id="remote" name="work_mode">
+                <label for="remote">Remote Work</label>
+            </div>
+
+            <div>
+                <input value="onsite" type="checkbox" id="onsite" name="work_mode">
+                <label for="onsite">On-site Work</label>
+            </div>
+            <label for="message" class="label-sty">Why do you want this job?</label>
+            <textarea id="message" rows="5" cols="10"></textarea>
+            <p class="para-sty">
+                <input for="agree" type="checkbox" value="checkbox" required>
+                <label for="agree">I confirm that all the given information is correct.</label>
+            </p>
+            <input id="submit" type="submit">
+        </form>
+    </div>
+
+</body>
+
+</html>
