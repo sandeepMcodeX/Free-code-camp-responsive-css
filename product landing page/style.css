@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-sty {
+  width: 100%;
+  min-height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 50px;
+  padding-top: 10px;
+  box-shadow: 0 0 10px black;
+  background-color: white;
+}
+.img-logo-sty {
+  width: 100%;
+  max-width: 120px;
+}
+.nav-link-sty ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+}
+.nav-link-sty ul li {
+  margin-inline: 30px;
+}
+.nav-link-sty ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  
+  font-size: 18px;
+}
+
+.subscribe-sty{
+  background-color:#274e7b ;
+  padding: 8px;
+  
+}
+.subscribe-sty {
+  color: white;
+  
+}
+.hero-section{
+    background: url(./asset/Andes_Hero_Desktop_SC.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height:600px;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+     position: relative;
+}
+.hero-section-content-sty{
+position: absolute;
+top: 101px;
+left: 97px;
+
+}
+.hero-mobile-content{
+   display: none;
+}
+.hero-heading-sty{
+  font-size: 4rem;
+  font-weight: 600;
+  color: white;
+  line-height: 65px;
+  word-spacing: -20px;
+}
+
+.btn-center{
+   display: flex;
+   justify-content: center;
+}
+.hero-btn-sty-super{
+  border: none;
+  padding: 16px 70px;
+  background-color: #274e7b;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-top: 18px;
+}
+.super_chewer{
+   margin-top: 50px;
+  
+}
+.super_chewer h2{
+     font-size: 44px;
+     text-align: center;
+     color: #274e7b;
+
+}
+.toys_container{
+  display: flex;
+  margin-top: 20px;
+  margin-inline: 50px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.toys_image1{
+  width: 100%;
+  max-width: 540px;
+}
+.toys_image2{
+  width: 100%;
+  max-width: 540px;
+}
+
+.upgrade-toys-sec{
+  margin-top: 30px;
+}
+
+
+.dog-safety{
+  background-color: #D3F7FF;
+  margin-top: 30px;
+  padding-block: 30px;
+  width: 100%;
+  padding-inline: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.dog-safety-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dog-safety h2{
+  text-align: center;
+  font-size: 33px;
+  color: #274e7b;
+  margin-bottom: 24px;
+}
+.dog-safety p{
+  font-size: 19px;
+  line-height: 28px;
+  text-align: center;
+}
+.dog-safety-con-p{
+     width:100%;
+     max-width: 560px;
+}
+.video{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.you-tube-video-component{
+  width: 100%;
+  max-width: 800px;
+  min-height: 400px;
+}
+
+.pack-back{
+  background-color: #EEF2F3;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-inline: 10px;
+}
+.pack-back-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.pack-back-content h2{
+  font-size: 33px;
+  color: #274e7b;
+  margin-bottom: 16px;
+  text-align: center;
+
+}
+.pack-back-content p{
+  text-align: center;
+  font-size: 19px;
+  line-height: 28px;
+  margin-bottom: 16px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.pack-back-img-sty{
+  width: 100%;
+  max-width: 800px;
+}
+.message {
+   margin-top: 50px;
+   padding-inline: 80px;
+}
+.message h2{
+  text-align: center;
+  font-size: 33px;
+  text-transform: uppercase;
+  color: #274e7b;
+  margin-bottom: 20px;
+  
+}
+.message-container{
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.message-container p{
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  margin-right: 100px;
+  width: 100%;
+  max-width: 550px;
+}
+.message-container input{
+  margin-right: 5px;
+  padding: 16px 12px;
+  width: 300px;
+}
+.message-container button {
+  border: none;
+  padding: 16px;
+  color: white;
+  background-color: #274e7b;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+}
+.email{
+   display: flex;
+}
+.footer{
+   margin-top: 30px;
+   margin-inline: 100px;
+   margin-bottom: 50px;
+
+}
+.footer-container{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 100px;
+}
+#foo-box h3{
+  margin-bottom: 16px;
+  color: #274e7b;
+}
+#foo-box ul li{
+  line-height: 40px;
+  font-size: 19px;
+  list-style-type: none;
+}
+.foo-box-three h3{
+  color: #274e7b;
+  margin-top: 16px;
+}
+.foo-box-three ul{
+  display: flex;
+  align-items: center;
+  color: #274e7b;
+}
+.foo-box-three ul li {
+ list-style-type: none;
+ padding: 5px;
+  
+}
+.foo-box-three ul li a img {
+  width: 100%;
+  max-width: 24px;
+}
+
+@media(max-width:1000px){
+  
+  .nav-link-sty ul li a{
+    display: none;
+  }
+  
+  
+  .hero-section{
+    background: url(./asset/Andes_Hero_Mobile_SC.jpg);
+    background-position: center;
+    background-size: cover;
+
+  }
+  .hero-desktop-content{
+    display: none;
+  }
+  .hero-mobile-content{
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    width:100%;
+    max-width: 500px;
+  }
+  .hero-mobile-content h2{
+    font-size: 40px;
+    color: white;
+    line-height: 47px;
+    
+
+  }
+  .dog-safety{
+    padding-inline: 20px;
+  }
+  .message-container{
+    flex-direction: column;
+    row-gap: 24px;
+  }
+  .message-container p{
+    line-height: 28px;
+    font-size: 23px;
+  }
+  .footer{
+    margin-inline: 20px;
+  }
+  .footer-container{
+    padding-inline: 10px;
+  }
+
+}
+@media(max-width:600px){
+  
+  .header-sty{
+    padding-inline: 10px;
+  }
+  
+  .toys_container{
+    flex-direction: column;
+  }
+  .message{
+     padding-inline: 10px;
+     
+  }
+  .message-container p{
+    margin-right: 0px;
+  }
+  .pack-back-content p{
+    line-height: 24px;
+    text-align: justify;
+   
+  }
+  .footer-container{
+    flex-direction: column;
+  }
+  #foo-box ul li{
+    line-height: 30px;
+  }
+  #foo-box h3{
+  margin-top: 16px;
+  margin-bottom: 10px;
+  }
+}
