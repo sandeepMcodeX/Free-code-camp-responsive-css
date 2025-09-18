@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Fira+Code&display=swap">
+</head>
+<body>
+    <main>
+        <div class="left_container">
+            <h2>JS Documentation</h2>
+            <ul>
+                <li><a href="#intro">Intro to Modern JS</a></li>
+                <li><a href="#let_const">let & const</a></li>
+                <li><a href="#arrow_functions">Arrow Functions</a></li>
+                <li><a href="#template_literals">Template Literals</a></li>
+                <li><a href="#destructuring">Destructuring</a></li>
+                <li><a href="#spread_rest">Spread & Rest</a></li>
+                <li><a href="#modules">Modules</a></li>
+                <li><a href="#promises">Promises</a></li>
+                <li><a href="#async_await">Async/Await</a></li>
+                <li><a href="#reference">Reference</a></li>
+            </ul>
+        </div>
+        <div class="right_container">
+            <section id="intro">
+                <h2>Intro to Modern JS</h2>
+                <p>Modern JavaScript (ES6+) brings powerful features to simplify code, improve performance, and enhance
+                    readability. Features like arrow functions, modules, and async/await make JavaScript more expressive
+                    and easier to manage.</p>
+            </section>
+
+            <section id="let_const">
+                <h2>let & const</h2>
+                <p><code>let</code> and <code>const</code> are modern alternatives to <code>var</code>. Use
+                    <code>const</code> by default and <code>let</code> when reassignment is needed.
+                </p>
+                <pre><code>const name = "JS";
+            let count = 0;
+            count++;</code></pre>
+            </section>
+            <section id="arrow_functions">
+                <h2>Arrow Functions</h2>
+                <p>Arrow functions provide a shorter syntax and lexical <code>this</code>.</p>
+                <pre><code>// Traditional
+            function add(a, b) {
+              return a + b;
+            }
+            
+            // Arrow
+            const add = (a, b) => a + b;</code></pre>
+            </section>
+            <section id="template_literals">
+                <h2>Template Literals</h2>
+                <p>Use backticks <code>`</code> for multiline strings and embedding expressions.</p>
+                <pre><code>const name = "JS";
+            console.log(`Hello, ${name}!`);</code></pre>
+            </section>
+
+            <section id="destructuring">
+                <h2>Destructuring</h2>
+                <p>Extract values from arrays or objects with ease.</p>
+                <pre><code>const user = { name: "Alex", age: 25 };
+            const { name, age } = user;
+            
+            const [x, y] = [10, 20];</code></pre>
+            </section>
+            <section id="spread_rest">
+                <h2>Spread & Rest</h2>
+                <p>Spread copies values. Rest collects remaining values.</p>
+                <pre><code>const arr1 = [1, 2];
+            const arr2 = [...arr1, 3]; // [1, 2, 3]
+            
+            function sum(...numbers) {
+              return numbers.reduce((a, b) => a + b);
+            }</code></pre>
+            </section>
+
+            <section id="modules">
+                <h2>Modules</h2>
+                <p>Use <code>import</code> and <code>export</code> to split code across files.</p>
+                <pre><code>// utils.js
+            export const square = x => x * x;
+            
+            // main.js
+            import { square } from './utils.js';</code></pre>
+            </section>
+
+            <section id="promises">
+                <h2>Promises</h2>
+                <p>Promises handle asynchronous operations.</p>
+                <pre><code>fetch('/api/data')
+              .then(res => res.json())
+              .then(data => console.log(data))
+              .catch(err => console.error(err));</code></pre>
+            </section>
+
+            <section id="async_await">
+                <h2>Async/Await</h2>
+                <p>Async functions make async code look synchronous.</p>
+                <pre><code>async function loadData() {
+              try {
+                const res = await fetch('/api/data');
+                const data = await res.json();
+                console.log(data);
+              } catch (err) {
+                console.error(err);
+              }
+            }</code></pre>
+            </section>
+
+            <section id="reference">
+                <h2>Reference</h2>
+                <p>Modern JavaScript documentation sourced and adapted from <a
+                        href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN Web Docs</a>.</p>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
